@@ -217,7 +217,7 @@ function Download_And_Configure_Core() {
     CORE_DIR="$TARGET_DIR/core"
     mkdir -p "$CORE_DIR"
     if [[ "$IS_CN_NETWORK" == "true" ]]; then
-        GITHUB_MIRROR="https://github.moeyy.xyz/https://raw.githubusercontent.com"
+        GITHUB_MIRROR="https://gh.llkk.cc/https://raw.githubusercontent.com"
     else
         GITHUB_MIRROR="https://raw.githubusercontent.com"
     fi
